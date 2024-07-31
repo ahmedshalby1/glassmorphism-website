@@ -1,0 +1,181 @@
+body{
+    background-image: linear-gradient( 135deg, #ff9a9e  10%, #F6416C 100%);
+      max-width: 400px;
+      max-height: 400px;
+    }
+    .circle1{
+      height: 500px;
+      width: 500px;
+      background-color: pink;
+      position: absolute;
+      top: -160px;
+      left: -159px;
+      border-radius: 250px;
+    }
+    .circle2{
+      height: 400px;
+      width: 400px;
+      background-color: #F6416C;
+      border-radius: 200px;
+      position: absolute;
+      top: 489px;
+      left: 1029px;
+    }
+    .home a{
+      position: absolute;
+      top: 276px;
+      left: 531px;
+    transition-duration: 0.5s;
+    transition-timing-function:ease ;
+      font-weight: 900;
+       z-index: 13;
+    }
+    .container2 a {
+      text-decoration: none;
+       z-index: 13;/* Remove underline */
+    }
+    .container2 li {
+      list-style: none;/* Remove bullet points */
+      margin-right: 100px;
+       z-index: 13;
+    }
+    .container2 li a {
+      color: black;
+       z-index: 13;/* Default color */
+    }
+    .latest a{
+      position: absolute;
+      top: 276px;
+      left: 618px;
+      transition-duration: 0.5s;
+      transition-timing-function:ease ;
+      font-weight: 900;
+       z-index: 13;
+    
+    }
+    .offers a{
+      position: absolute;
+       z-index: 13;
+      top: 276px;
+      left: 701px;
+      transition-duration: 0.5s;
+      transition-timing-function:ease ;
+      font-weight: 900;
+    }
+    .contact a{
+      position: absolute;
+       z-index: 13;
+      top: 276px;
+      left: 883px;
+      transition-duration: 0.5s;
+      transition-timing-function:ease ;
+      font-weight: 900;
+    
+    }
+    .services a{
+      position: absolute;
+       z-index: 13;
+      top: 276px;
+      left: 777px;
+      transition-duration: 0.5s;
+      transition-timing-function:ease ;
+      font-weight: 900;
+    
+    }
+    .container2 {
+    position: absolute;
+    top: 39px;
+       z-index: 13;
+    left: -40px;
+    }
+    
+    .container2 a {
+      text-decoration: none;
+       z-index: 13;
+    }
+    .services a:hover{
+      color: white;
+       z-index: 13;
+    }
+    .contact a:hover{
+      color: white;
+       z-index: 13;
+    }
+    .home a:hover{
+      color: white;
+       z-index: 13;
+    }
+    .offers a:hover{
+      color: white;
+       z-index: 13;
+    }
+    .latest a:hover{
+      color: white; 
+      z-index: 13;
+      
+    }
+    .logo a{
+    position: absolute;
+    top: 322px;
+    left: 455px;
+      color: black;
+      font-weight: 900;
+      font-size: 24px;
+       z-index: 13;
+    }
+    .title{
+      position: absolute;
+      top: 349px;
+       z-index: 13;
+      left: 455px;
+      width: 324px;
+      height: 370px;
+      font-size: 33px;
+      font-weight: 900;
+    }
+    .description{
+      position: absolute;
+       z-index: 13;
+      top: 445px;
+      left: 455px;
+      width: 468px;
+      font-weight: 800;
+    }
+    .buttons input{
+      outline: none;
+      color: #f2f2f2;
+      font-size: 18px;
+      font-weight: 500;
+      border-radius: 12px;
+      padding: 6px 15px;
+       z-index: 13;
+      border: none;
+      margin: 0 8px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      background-image: linear-gradient( 135deg, #ff9a9e  10%, #F6416C 100%);
+      position: relative;
+      top: 306px;
+      left: 905px;
+      
+    }
+    .buttons input:hover{
+      transform: scale(0.97);
+       z-index: 13;
+    }
+    .box{
+      height: 83vh;
+      width: 259%;
+      background: rgba(255, 255, 255, 0.1);
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+      border-top: 1px solid rgba(255, 255, 255, 0.5);
+      border-left: 1px solid rgba(255, 255, 255, 0.5);
+      backdrop-filter: blur(5px);
+      z-index: 12;
+      border-radius: 25px;
+      margin: auto;
+      position: relative;
+      top: 96px;
+      left: 171px;
+    }
+    
